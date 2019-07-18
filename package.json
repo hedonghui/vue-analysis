@@ -1,0 +1,16 @@
+{
+  "name": "vue-design",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/HcySunYang/vue-design.git",
+  "author": "HcySunYang <HcySunYang@outlook.com>",
+  "scripts": {
+    "dev": "vuepress dev ./docs",
+    "build": "vuepress build ./docs",
+    "deploy": "sh build/deploy.sh"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.8.4"
+  }
+}
